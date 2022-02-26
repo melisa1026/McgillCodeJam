@@ -253,7 +253,7 @@ namespace CodeJamProject {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CodeJamProject;component/tenantpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CodeJamProject;V1.0.0.0;component/tenantpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TenantPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
