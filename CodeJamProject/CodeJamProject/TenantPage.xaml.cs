@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,10 +25,28 @@ namespace CodeJamProject
         {
             InitializeComponent();
         }
+        private void TextBox_TextChanged(object sender, EventArgs e)
+        {
+        }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+
+        private void Upload_Click(object sender, RoutedEventArgs e)
         {
 
+            Microsoft.Win32.OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            bool? response = openFileDialog.ShowDialog();
+
+            if (response == true)
+            {
+                string filepath = openFileDialog.FileName;
+                MessageBox.Show(filepath);
+            }
+        }
+
+        private void toLoginPage_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("LoginPage.xaml", UriKind.Relative));
         }
     }
 }

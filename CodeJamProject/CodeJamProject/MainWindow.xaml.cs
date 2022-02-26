@@ -26,5 +26,6 @@ namespace CodeJamProject
             rootFrame.Navigate(new LoginPage());            
         }
 
+
     }
 }

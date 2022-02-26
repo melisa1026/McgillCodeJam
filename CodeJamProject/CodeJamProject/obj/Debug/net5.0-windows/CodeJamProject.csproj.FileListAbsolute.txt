@@ -50,3 +50,7 @@ C:\Users\kevin\Documents\GitHub\McgillCodeJam\CodeJamProject\CodeJamProject\obj\
 C:\Users\kevin\Documents\GitHub\McgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\ref\CodeJamProject.dll
 C:\Users\kevin\Documents\GitHub\McgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\CodeJamProject.pdb
 C:\Users\kevin\Documents\GitHub\McgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\CodeJamProject.genruntimeconfig.cache
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\LoginPage.g.cs
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\SignupPage.g.cs
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\LoginPage.baml
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\SignupPage.baml
