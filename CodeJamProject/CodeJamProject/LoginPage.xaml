@@ -10,13 +10,13 @@
 
     <Grid Background="#FF6AD8CB">
         <Label Content="Login" HorizontalAlignment="Center" Margin="0,36,0,0" VerticalAlignment="Top" FontSize="30px" Foreground="White"/>
-        <TextBox x:Name="usernameInput" HorizontalAlignment="Center" Margin="0,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" Height="35" FontSize="25px" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="usernameInput" HorizontalAlignment="Center" Margin="0,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" Height="35" FontSize="20px" VerticalContentAlignment="Center"/>
         <PasswordBox x:Name="passwordInput" HorizontalAlignment="Center" Margin="0,248,0,0"  VerticalAlignment="Top" Width="334" Height="35" FontSize="20px" MaxLength="25" VerticalContentAlignment="Center"/>
         <Label x:Name="usernameText" Content="Username:" HorizontalAlignment="Center" Margin="0,114,0,0" VerticalAlignment="Top" Width="172" FontSize="20px" Foreground="White" HorizontalContentAlignment="Center"/>
         <Label x:Name="passwordText" Content="Password:" HorizontalAlignment="Center" VerticalAlignment="Top" Width="334" FontSize="20px" Foreground="White" HorizontalContentAlignment="Center" Margin="0,211,0,0"/>
         <Button x:Name="signInButton" Content="Sign In" HorizontalAlignment="Center" Margin="0,306,0,0" VerticalAlignment="Top" Height="31" Width="84" Click="signInButton_Click"/>
         <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" Margin="0,372,0,0" VerticalAlignment="Top" Height="32" Width="96" Click="signUpButton_Click"/>
-        <Button x:Name="tenantTemp" Content="Tenant" HorizontalAlignment="Left" Margin="447,42,0,0" VerticalAlignment="Top" Height="37" Width="81" Click="Button_Click"/>
-        <Button x:Name="landlordTemp" Content="LandLord" HorizontalAlignment="Left" Margin="272,42,0,0" VerticalAlignment="Top" Height="37" Width="81"/>
+        <Button x:Name="tenantTemp" Content="Tenant" HorizontalAlignment="Left" Margin="447,42,0,0" VerticalAlignment="Top" Height="37" Width="81" Click="tenantTemp_Click"/>
+        <Button x:Name="landlordTemp" Content="LandLord" HorizontalAlignment="Left" Margin="272,42,0,0" VerticalAlignment="Top" Height="37" Width="81" Click="landlordTemp_Click"/>
     </Grid>
 </Page>
