@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="LoginPage">
 
-    <Grid>
+    <Grid Background="#FF6AD8CB">
         <Label Content="Login" HorizontalAlignment="Center" Margin="0,36,0,0" VerticalAlignment="Top" FontSize="30px" Foreground="White"/>
         <TextBox x:Name="usernameInput" HorizontalAlignment="Center" Margin="0,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" Height="35" FontSize="25px" VerticalContentAlignment="Center"/>
         <PasswordBox x:Name="passwordInput" HorizontalAlignment="Center" Margin="0,248,0,0"  VerticalAlignment="Top" Width="334" Height="35" FontSize="20px" MaxLength="25" VerticalContentAlignment="Center"/>
