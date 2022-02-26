@@ -23,6 +23,8 @@ namespace CodeJamProject
         public MainWindow()
         {
             InitializeComponent();
+            rootFrame.Navigate(new LoginPage());            
         }
+
     }
 }

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\App.xaml
-2-337735669
+4-940907355
 
-6-1320875418
+869840501
 193-1891726104
-MainWindow.xaml;TenantPage.xaml;
+LoginPage.xaml;MainWindow.xaml;SignupPage.xaml;TenantPage.xaml;
 
 False
 

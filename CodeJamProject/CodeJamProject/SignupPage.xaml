@@ -1,0 +1,23 @@
+﻿<Page x:Class="CodeJamProject.SignupPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CodeJamProject"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SignupPage">
+
+    <Grid>
+        <Label Content="Sign Up" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="30px" Foreground="White"/>
+        <TextBox x:Name="usernameInput" HorizontalAlignment="Center" Margin="0,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" Height="35" FontSize="25px" VerticalContentAlignment="Center"/>
+        <PasswordBox x:Name="passwordInput" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Width="334" Height="35" FontSize="20px" VerticalContentAlignment="Center"/>
+        <Label x:Name="usernameText" Content="Username:" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top" Width="172" FontSize="20px" Foreground="White" HorizontalContentAlignment="Center"/>
+        <Label x:Name="passwordText" Content="Password:" HorizontalAlignment="Center" Margin="0,168,0,0" VerticalAlignment="Top" Width="334" FontSize="20px" Foreground="White" HorizontalContentAlignment="Center"/>
+        <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" Margin="0,368,0,0" VerticalAlignment="Top" Height="31" Width="84" Click="signUpButton_Click"/>
+        <Button x:Name="signInButton" Content="Sign In" HorizontalAlignment="Left" Margin="670,368,0,0" VerticalAlignment="Top" Height="31" Width="84" Click="signInButton_Click"/>
+        <PasswordBox x:Name="passwordConfirm" HorizontalAlignment="Center" Margin="0,308,0,0" VerticalAlignment="Top" Width="334" Height="35" FontSize="20px" VerticalContentAlignment="Center"/>
+        <Label x:Name="passwordConfirmText" Content="Confirm Password:" HorizontalAlignment="Center" Margin="0,266,0,0" VerticalAlignment="Top" Width="334" FontSize="20px" Foreground="White" HorizontalContentAlignment="Center"/>
+        <Label x:Name="passError" Content="Error, the passwords entered do not match" HorizontalAlignment="Center" Margin="0,342,0,0" VerticalAlignment="Top" Foreground="Red" Visibility="Hidden"/>
+    </Grid>
+</Page>
