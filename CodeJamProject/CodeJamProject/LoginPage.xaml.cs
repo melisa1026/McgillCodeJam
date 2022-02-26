@@ -40,9 +40,14 @@ namespace CodeJamProject
             NavigationService.Navigate(new Uri("SignupPage.xaml", UriKind.Relative));
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void tenantTemp_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Uri("TenantPage.xaml", UriKind.Relative));
+        }
+
+        private void landlordTemp_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("LandlordPage.xaml", UriKind.Relative));
         }
     }
 }

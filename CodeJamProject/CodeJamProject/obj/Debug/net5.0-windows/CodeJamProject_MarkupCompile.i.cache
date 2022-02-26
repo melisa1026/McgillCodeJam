@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\App.xaml
-5740776569
+6-530101165
 
-91780092845
+10-652369166
 193-1891726104
-LandlordTennantsPage.xaml;LoginPage.xaml;MainWindow.xaml;SignupPage.xaml;TenantPage.xaml;
+LandlordPage.xaml;LandlordTennantsPage.xaml;LoginPage.xaml;MainWindow.xaml;SignupPage.xaml;TenantPage.xaml;
 
 False
 
