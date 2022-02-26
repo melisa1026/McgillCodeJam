@@ -125,7 +125,7 @@ namespace CodeJamProject {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CodeJamProject;component/signuppage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CodeJamProject;V1.0.0.0;component/signuppage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SignupPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
