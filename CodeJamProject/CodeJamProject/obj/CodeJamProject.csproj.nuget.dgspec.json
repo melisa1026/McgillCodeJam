@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\Documents\\GitHub\\McgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj": {}
+    "C:\\MAMP\\htdocs\\mcgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\Documents\\GitHub\\McgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj": {
+    "C:\\MAMP\\htdocs\\mcgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\Documents\\GitHub\\McgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj",
+        "projectUniqueName": "C:\\MAMP\\htdocs\\mcgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj",
         "projectName": "CodeJamProject",
-        "projectPath": "C:\\Users\\kevin\\Documents\\GitHub\\McgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj",
-        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\Documents\\GitHub\\McgillCodeJam\\CodeJamProject\\CodeJamProject\\obj\\",
+        "projectPath": "C:\\MAMP\\htdocs\\mcgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj",
+        "packagesPath": "C:\\Users\\melis\\.nuget\\packages\\",
+        "outputPath": "C:\\MAMP\\htdocs\\mcgillCodeJam\\CodeJamProject\\CodeJamProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\melis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
