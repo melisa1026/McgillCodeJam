@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -24,5 +25,45 @@ namespace CodeJamProject
         {
             InitializeComponent();
         }
+
+        private void downloadEmployerLetter_Click(object sender, RoutedEventArgs e)
+        {
+            bool downloadSucess = true;
+
+            try
+            {
+                using (WebClient Client = new WebClient())
+                    Client.DownloadFile("../../../PotatoEmployer.pdf", "LetterFromEmployer.pdf");
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("There is no Employer Letter for this tenant.");
+                downloadSucess = false;
+
+            }
+
+            if(downloadSucess)
+                MessageBox.Show("File Downloaded!");
+        }
+
+        private void downloadPayStubs_Click(object sender, RoutedEventArgs e)
+        {
+            bool downloadSucess = true;
+
+            try
+            {
+                using (WebClient Client = new WebClient())
+                    Client.DownloadFile("", "LetterFromEmployer.pdf");
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("There are no Pay Stubs for this tenant.");
+                downloadSucess = false;
+            }
+
+            if (downloadSucess)
+                MessageBox.Show("File Downloaded!");
+        }
     }
+
 }

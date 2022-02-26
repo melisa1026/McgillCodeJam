@@ -24,5 +24,10 @@ namespace CodeJamProject
         {
             InitializeComponent();
         }
+
+        private void toLandlordTennants_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("LandlordTennantsPage.xaml", UriKind.Relative));
+        }
     }
 }
