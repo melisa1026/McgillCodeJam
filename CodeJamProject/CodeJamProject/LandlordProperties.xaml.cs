@@ -56,9 +56,9 @@ namespace CodeJamProject
             StackPanel? grid = this.FindName("gridTag") as StackPanel;
 
             int[] prices = new int[3];
-            prices[0] = 2;
+            prices[0] = 20000;
             prices[1] = 1000000000;
-            prices[2] = -1;
+            prices[2] = 459000;
 
             for (int i = 0; i < addresses.Length; i++)
             {

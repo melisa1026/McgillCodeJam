@@ -16,7 +16,5 @@
         <Label x:Name="passwordText" Content="Password:" HorizontalAlignment="Center" VerticalAlignment="Top" Width="334" FontSize="20px" Foreground="White" HorizontalContentAlignment="Center" Margin="0,211,0,0"/>
         <Button x:Name="signInButton" Content="Sign In" HorizontalAlignment="Center" Margin="0,306,0,0" VerticalAlignment="Top" Height="31" Width="84" Click="signInButton_Click"/>
         <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" Margin="0,372,0,0" VerticalAlignment="Top" Height="32" Width="96" Click="signUpButton_Click"/>
-        <Button x:Name="tenantTemp" Content="Tenant" HorizontalAlignment="Left" Margin="447,42,0,0" VerticalAlignment="Top" Height="37" Width="81" Click="tenantTemp_Click"/>
-        <Button x:Name="landlordTemp" Content="LandLord" HorizontalAlignment="Left" Margin="272,42,0,0" VerticalAlignment="Top" Height="37" Width="81" Click="landlordTemp_Click"/>
     </Grid>
 </Page>
