@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\zvifu\McgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\
+=======
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\
+>>>>>>> 68de312688507acc31fe36f93a427376e3c5e981
 CodeJamProject
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+<<<<<<< HEAD
 C:\Users\zvifu\McgillCodeJam\CodeJamProject\CodeJamProject\App.xaml
 51331053664
 
 7-903920729
 193582816078
 LandlordPage.xaml;LoginPage.xaml;MainWindow.xaml;SignupPage.xaml;TenantPage.xaml;
+=======
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\App.xaml
+71598194625
+1-311960652
+9-2021430306
+193-1891726104
+LandlordPage.xaml;LandlordProperties.xaml;LandlordTennantsPage.xaml;LoginPage.xaml;MainWindow.xaml;SignupPage.xaml;TenantPage.xaml;
+>>>>>>> 68de312688507acc31fe36f93a427376e3c5e981
 
 False
 

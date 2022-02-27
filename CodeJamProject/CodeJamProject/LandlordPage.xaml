@@ -8,7 +8,10 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="LandlordPage">
 
-    <Grid Background="#FF1B2154">
+
+
+    <Grid Background="#FF1B2154" Margin="0,30,0,0">
+
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
             <RowDefinition/>
@@ -39,13 +42,14 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button Content="Tenants"
+            <Button Content="Log out"
                     Foreground="White"
                     FontSize="13"
                     FontWeight="Medium"
                     Margin="0,0,10,0"
-                    Grid.Column="10"
-                    Grid.ColumnSpan="2">
+                    Grid.Column="11"
+                    Grid.ColumnSpan="2"
+                    Click="toLoginPage_Click">
 
                 <Button.Style>
                     <Style TargetType="Button">
@@ -75,12 +79,13 @@
 
 
             <Button Content="Properties"
+                    Click="toLandlordPropertiesPage_Click"
                     Foreground="White"
                     FontSize="13"
                     FontWeight="Medium"
-                    Margin="0,0,10,0"
+                    Margin="57,0,28,0"
                     Grid.Column="7"
-                    Grid.ColumnSpan="2">
+                    Grid.ColumnSpan="3">
 
                 <Button.Style>
                     <Style TargetType="Button">
@@ -108,13 +113,14 @@
                 </Button.Template>
             </Button>
 
-            <Button Content="Income"
+            <Button Content="Tenants"
+                    Click="toLandlordTennants_Click"
                     Foreground="White"
                     FontSize="13"
                     FontWeight="Medium"
                     Margin="0,0,10,0"
                     Grid.Column="4"
-                    Grid.ColumnSpan="2">
+                    Grid.ColumnSpan="3">
 
                 <Button.Style>
                     <Style TargetType="Button">
@@ -137,13 +143,15 @@
                             <ContentPresenter VerticalAlignment="Center"
                                                   HorizontalAlignment="Center"/>
 
+
+
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
 
-
             <Button Content="Home"
+                    Click="toLandlordPage_Click"
                     Foreground="White"
                     FontSize="13"
                     FontWeight="Medium"
@@ -172,16 +180,19 @@
                             <ContentPresenter VerticalAlignment="Center"
                                                   HorizontalAlignment="Center"/>
 
+
+
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
 
-
-
         </Grid>
 
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center">
+
+        <Image Source="CityLine.png" Grid.ColumnSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="240,0,0,0" Grid.Row="1"/>
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Top" Margin="-6,26,6,0" Height="268">
 
             <StackPanel Orientation="Horizontal"
                         Margin="0,0,0,20">
@@ -189,102 +200,43 @@
                        Foreground="White"
                        FontSize="25"
                        FontWeight="Medium"
-                       Margin="10"/>
+                       Margin="20, 10, 10, 10"/>
 
             </StackPanel>
-            <TextBlock Text="Name"
+            <TextBlock Text="Email: "
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="10"/>
+                   Margin="20, 10, 10, 10"/>
 
-            <TextBlock Text="Income: 192,567,234$"
+            <TextBlock Text="Phone Number:"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="10"/>
+                   Margin="20, 10, 10, 10"/>
 
             <TextBlock Text="Tenants: 2"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="10"/>
+                   Margin="20, 10, 10, 10"/>
 
 
 
-            <TextBlock Text="Custom"
+            <TextBlock Text="Properties: 5"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Light"
-                   Margin="10"/>
+                   Margin="20, 10, 10, 10"/>
 
-            <StackPanel Orientation="Horizontal">
-                <Button Content="Start"
-                    Foreground="White"
-                    FontSize="14"
-                    FontWeight="Medium"
-                    Margin="20">
+            <TextBlock Text="Total Income: "
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Light"
+                   Margin="20, 10, 10, 10"/>
 
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="#FE6584"/>
-                            <Setter Property="Cursor" Value="Hand"/>
-
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property= "Background" Value="#FF4C70"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="100" Height="25"
-                                    CornerRadius="7"
-                                    Background="{TemplateBinding Background}">
-                                <ContentPresenter VerticalAlignment="Center"
-                                                  HorizontalAlignment="Center"/>
-
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-
-                <Button Content="Properties"
-                    Foreground="White"
-                    FontSize="14"
-                    FontWeight="Medium">
-
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="BurlyWood"/>
-                            <Setter Property="Cursor" Value="Hand"/>
-
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property= "Background" Value="#FF4C70"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="100" Height="25"
-                                    CornerRadius="7"
-                                    Background="{TemplateBinding Background}">
-                                <ContentPresenter VerticalAlignment="Center"
-                                                  HorizontalAlignment="Center"/>
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-
-
-
-            </StackPanel>
         </StackPanel>
+
 
     </Grid>
 </Page>
