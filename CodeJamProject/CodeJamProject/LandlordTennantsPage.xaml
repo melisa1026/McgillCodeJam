@@ -5,12 +5,12 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:CodeJamProject"
       mc:Ignorable="d" d:DesignWidth="798"
-      Title="LandlordTennantsPage" Height="672">
-    
-    
+      Title="LandlordTennantsPage" Height="1716">
+
+
 
     <ScrollViewer x:Name="Scrollbar" VerticalScrollBarVisibility="Visible" Foreground="{x:Null}">
-        <Grid Background="#FF1B2154">
+        <Grid Background="#FF1B2154" Height="2208">
             <Grid.RowDefinitions>
                 <RowDefinition Height="25"/>
                 <RowDefinition/>
@@ -188,8 +188,8 @@
 
 
             </Grid>
-            
-            <StackPanel Grid.ColumnSpan="2" VerticalAlignment="Top" RenderTransformOrigin="0.51,0.493" Height="789" Grid.Row="1">
+
+            <StackPanel Name="gridTag" Grid.ColumnSpan="2" VerticalAlignment="Top" RenderTransformOrigin="0.51,0.493" Height="1677" Grid.Row="1">
 
                 <StackPanel Orientation="Horizontal"
                         Margin="0,0,0,20">
@@ -203,61 +203,61 @@
                 />
 
                 </StackPanel>
-                <TextBlock Text="Name"
+                <TextBlock Text="Name: Melisa Panaccione"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
                    Margin="5"
                 />
 
-                <TextBlock Text="Income: 192,567,234$"
+                <TextBlock Text="Income: $192,567,234"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
                    Margin="5" HorizontalAlignment="Left"
                 />
 
-                <TextBlock Text="Social Insurance Number: "
+                <TextBlock Text="Social Insurance Number: 935839405"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
                    Margin="5" HorizontalAlignment="Left"
                 />
 
-                <TextBlock Text="Credit Score: "
+                <TextBlock Text="Credit Score: 900"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
                    Margin="5" HorizontalAlignment="Left"
                 />
 
-                <TextBlock Text="Moving Date: "
+                <TextBlock Text="Moving Date: Summer"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium" Width="763"
                    Margin="5" HorizontalAlignment="Left"
                  />
 
-                <TextBlock Text="Number of residents: "
+                <TextBlock Text="Number of residents: 2"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium" Width="763"
                    Margin="5" HorizontalAlignment="Left"
                  />
 
-                <TextBlock Text="Pets: "
+                <TextBlock Text="Pets: 0"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium" Width="763"
                    Margin="5
-                           " HorizontalAlignment="Left"
+                   " HorizontalAlignment="Left"
                  />
 
-                <TextBlock Text="Moving because: "
+                <TextBlock Text="Moving because: I feel like it"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="10" Height="59" HorizontalAlignment="Left"
+                   Margin="10" Height="24" HorizontalAlignment="Left"
                 />
 
                 <TextBlock Text="Past Pay Stubs: "
@@ -266,7 +266,104 @@
                    FontWeight="Medium"
                    Margin="10, 5, 10, 0" Height="24" HorizontalAlignment="Left"
                 />
+
+                <Button
+                    Click="downloadPayStubs_Click"
+                    Content="Download" 
+                    Width="120" 
+                    HorizontalAlignment="Left" 
+                    Background="#FFE8E8E8"
+                    Margin="5, 0, 20, 10" Foreground="Black"
+                    Height="22"
+                />
+
+                <TextBlock 
+                   Text="Letter from Employer: "
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium"
+                   Margin="10, 5, 10, 0" Height="26" HorizontalAlignment="Left"
+                />
+
+                <Button
+                    Click="downloadEmployerLetter_Click"
+                    Content="Download" 
+                    Width="120" 
+                    HorizontalAlignment="Left" 
+                    Background="#FFE8E8E8"
+                    Margin="5, 0, 10, 10" Foreground="Black"
+                    Height="22"
+                />
+
+                <StackPanel Orientation="Horizontal"
+                        Margin="0,0,0,20">
+
+                </StackPanel>
                 
+                <TextBlock Text="Name: Kevin Fudimm"
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium"
+                   Margin="5"
+                />
+
+                <TextBlock Text="Income: $1"
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium"
+                   Margin="5" HorizontalAlignment="Left"
+                />
+
+                <TextBlock Text="Social Insurance Number: 930495498"
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium"
+                   Margin="5" HorizontalAlignment="Left"
+                />
+
+                <TextBlock Text="Credit Score: 299"
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium"
+                   Margin="5" HorizontalAlignment="Left"
+                />
+
+                <TextBlock Text="Moving Date: Next full moon"
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium" Width="763"
+                   Margin="5" HorizontalAlignment="Left"
+                 />
+
+                <TextBlock Text="Number of residents: 1"
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium" Width="763"
+                   Margin="5" HorizontalAlignment="Left"
+                 />
+
+                <TextBlock Text="Pets: 0"
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium" Width="763"
+                   Margin="5
+                   " HorizontalAlignment="Left"
+                 />
+
+                <TextBlock Text="Moving because: To get exercise"
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium"
+                   Margin="10" Height="24" HorizontalAlignment="Left"
+                />
+
+                <TextBlock Text="Past Pay Stubs: "
+                   Foreground="White"
+                   FontSize="15"
+                   FontWeight="Medium"
+                   Margin="10, 5, 10, 0" Height="24" HorizontalAlignment="Left"
+                />
+
                 <Button
                     Click="downloadPayStubs_Click"
                     Content="Download" 

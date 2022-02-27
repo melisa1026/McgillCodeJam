@@ -24,7 +24,7 @@ namespace CodeJamProject
         {
             InitializeComponent();
 
-            //generateAddresses();
+            generateAddresses();
         }
 
         private void toLandlordTennants_Click(object sender, RoutedEventArgs e)
@@ -49,9 +49,10 @@ namespace CodeJamProject
 
         private void generateAddresses()
         {
-            /*[] addresses = new string[3];
+            string[] addresses = new string[3];
             addresses[0] = "123 Fishmish";
             addresses[1] = "0004 Mashed-Potatow Avenue";
+            addresses[2] = "19583 Lasso Lany";
             StackPanel? grid = this.FindName("gridTag") as StackPanel;
 
             int[] prices = new int[3];
@@ -66,16 +67,22 @@ namespace CodeJamProject
                 TextBlock priceText = new TextBlock();
                 priceText.Text = "Price: $" + prices[i];
 
+                addressText.FontSize = 15;
+                addressText.Foreground = Brushes.White;
+                addressText.FontWeight = FontWeights.Medium;
+                addressText.Margin = new Thickness(20, 0, 0, 0);
 
-                addressText.FontSize = new FontSize(15);
+                priceText.FontSize = 15;
+                priceText.Foreground = Brushes.White;
+                priceText.FontWeight = FontWeights.Medium;
+                priceText.Margin = new Thickness(20, 0, 0, 20);
 
-                if(grid != null)
+                if (grid != null)
                 {
                     grid.Children.Add(addressText);
                     grid.Children.Add(priceText);
                 }
             }
-            */
         }
     }
 }

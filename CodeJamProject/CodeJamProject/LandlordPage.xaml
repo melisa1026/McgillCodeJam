@@ -226,13 +226,13 @@
             <TextBlock Text="Properties: 5"
                    Foreground="White"
                    FontSize="15"
-                   FontWeight="Light"
+                   FontWeight="Medium"
                    Margin="20, 10, 10, 10"/>
 
             <TextBlock Text="Total Income: "
                    Foreground="White"
                    FontSize="15"
-                   FontWeight="Light"
+                   FontWeight="Medium"
                    Margin="20, 10, 10, 10"/>
 
         </StackPanel>
