@@ -223,7 +223,7 @@
 
 
 
-            <TextBlock Text="Properties: 5"
+            <TextBlock Text="Properties: 3"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
