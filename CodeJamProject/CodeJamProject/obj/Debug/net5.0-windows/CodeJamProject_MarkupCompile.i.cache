@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\kevin\Documents\GitHub\McgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\
 CodeJamProject
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\kevin\Documents\GitHub\McgillCodeJam\CodeJamProject\CodeJamProject\App.xaml
-52083182207
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\App.xaml
+6-530101165
 
-91932345786
+10-652369166
 193-1891726104
-LandlordPage.xaml;LoginPage.xaml;MainWindow.xaml;SignupPage.xaml;TenantPage.xaml;
+LandlordPage.xaml;LandlordTennantsPage.xaml;LoginPage.xaml;MainWindow.xaml;SignupPage.xaml;TenantPage.xaml;
 
 True
 

@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="LandlordPage.xaml.cs">
+    <Compile Update="LandlordTennantsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="TenantPage.xaml.cs">
@@ -10,7 +10,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="LandlordPage.xaml">
+    <Page Update="LandlordTennantsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TenantPage.xaml">

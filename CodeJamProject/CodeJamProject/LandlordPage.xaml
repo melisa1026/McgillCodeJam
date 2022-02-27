@@ -45,7 +45,8 @@
                     FontWeight="Medium"
                     Margin="0,0,10,0"
                     Grid.Column="10"
-                    Grid.ColumnSpan="2">
+                    Grid.ColumnSpan="2"
+                    Click="toLandlordTennants_Click">
 
                 <Button.Style>
                     <Style TargetType="Button">
@@ -192,13 +193,13 @@
                        Margin="10"/>
 
             </StackPanel>
-            <TextBlock Text="Name"
+            <TextBlock Text="Email: "
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
                    Margin="10"/>
 
-            <TextBlock Text="Income: 192,567,234$"
+            <TextBlock Text="Phone Number:"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
@@ -219,13 +220,8 @@
                    Margin="10"/>
 
             <StackPanel Orientation="Horizontal">
-                <Button Content="Start"
-                    Foreground="White"
-                    FontSize="14"
-                    FontWeight="Medium"
-                    Margin="20">
 
-                    <Button.Style>
+                <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="#FE6584"/>
                             <Setter Property="Cursor" Value="Hand"/>
