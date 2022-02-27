@@ -196,20 +196,20 @@
 
             <StackPanel Orientation="Horizontal"
                         Margin="0,0,0,20">
-                <TextBlock Text="LandLord"
+                <TextBlock Text="Welcome TheLegend27"
                        Foreground="White"
                        FontSize="25"
                        FontWeight="Medium"
                        Margin="20, 10, 10, 10"/>
 
             </StackPanel>
-            <TextBlock Text="Email: "
+            <TextBlock Text="Email: thelegend27@gmail.com"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
                    Margin="20, 10, 10, 10"/>
 
-            <TextBlock Text="Phone Number:"
+            <TextBlock Text="Phone Number: 438-822-4876"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
@@ -229,7 +229,7 @@
                    FontWeight="Medium"
                    Margin="20, 10, 10, 10"/>
 
-            <TextBlock Text="Total Income: "
+            <TextBlock Text="Total Income: $10,000/mo"
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
