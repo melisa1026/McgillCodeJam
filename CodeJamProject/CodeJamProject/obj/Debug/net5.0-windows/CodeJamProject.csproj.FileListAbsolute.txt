@@ -60,3 +60,7 @@ C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-wind
 C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\CodeJamProject.pdb
 C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\CodeJamProject.genruntimeconfig.cache
 C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\ref\CodeJamProject.dll
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\LandlordProperties.g.cs
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\LandlordProperties.baml
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\bin\Debug\net5.0-windows\CityLine.png
+C:\MAMP\htdocs\mcgillCodeJam\CodeJamProject\CodeJamProject\obj\Debug\net5.0-windows\CodeJamProject_Content.g.cs

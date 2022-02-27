@@ -6,9 +6,11 @@
       xmlns:local="clr-namespace:CodeJamProject"
       mc:Ignorable="d" d:DesignWidth="798"
       Title="LandlordTennantsPage" Height="672">
+    
+    
 
     <ScrollViewer x:Name="Scrollbar" VerticalScrollBarVisibility="Visible" Foreground="{x:Null}">
-        <Grid Background="#0F0F2D">
+        <Grid Background="#FF1B2154">
             <Grid.RowDefinitions>
                 <RowDefinition Height="25"/>
                 <RowDefinition/>
@@ -39,13 +41,14 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Button Content="Tenants"
+                <Button Content="Log out"
                     Foreground="White"
                     FontSize="13"
                     FontWeight="Medium"
                     Margin="0,0,10,0"
-                    Grid.Column="10"
-                    Grid.ColumnSpan="2">
+                    Grid.Column="11"
+                    Grid.ColumnSpan="2"
+                    Click="toLoginPage_Click">
 
                     <Button.Style>
                         <Style TargetType="Button">
@@ -75,12 +78,13 @@
 
 
                 <Button Content="Properties"
+                    Click="toLandlordPropertiesPage_Click"
                     Foreground="White"
                     FontSize="13"
                     FontWeight="Medium"
-                    Margin="0,0,10,0"
+                    Margin="57,0,28,0"
                     Grid.Column="7"
-                    Grid.ColumnSpan="2">
+                    Grid.ColumnSpan="3">
 
                     <Button.Style>
                         <Style TargetType="Button">
@@ -108,13 +112,14 @@
                     </Button.Template>
                 </Button>
 
-                <Button Content="Income"
+                <Button Content="Tenants"
+                    Click="toLandlordTennants_Click"
                     Foreground="White"
                     FontSize="13"
                     FontWeight="Medium"
                     Margin="0,0,10,0"
                     Grid.Column="4"
-                    Grid.ColumnSpan="2">
+                    Grid.ColumnSpan="3">
 
                     <Button.Style>
                         <Style TargetType="Button">
@@ -137,13 +142,15 @@
                                 <ContentPresenter VerticalAlignment="Center"
                                                   HorizontalAlignment="Center"/>
 
+
+
                             </Border>
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
 
-
                 <Button Content="Home"
+                    Click="toLandlordPage_Click"
                     Foreground="White"
                     FontSize="13"
                     FontWeight="Medium"
@@ -172,12 +179,16 @@
                                 <ContentPresenter VerticalAlignment="Center"
                                                   HorizontalAlignment="Center"/>
 
+
+
                             </Border>
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
-            </Grid>
 
+
+            </Grid>
+            
             <StackPanel Grid.ColumnSpan="2" VerticalAlignment="Top" RenderTransformOrigin="0.51,0.493" Height="789" Grid.Row="1">
 
                 <StackPanel Orientation="Horizontal"
@@ -203,42 +214,35 @@
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="5"
+                   Margin="5" HorizontalAlignment="Left"
                 />
 
                 <TextBlock Text="Social Insurance Number: "
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="5"
+                   Margin="5" HorizontalAlignment="Left"
                 />
 
                 <TextBlock Text="Credit Score: "
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="5"
-                />
-
-                <TextBlock Text="Social Insurance Number: "
-                   Foreground="White"
-                   FontSize="15"
-                   FontWeight="Medium" Width="763"
-                   Margin="5"
+                   Margin="5" HorizontalAlignment="Left"
                 />
 
                 <TextBlock Text="Moving Date: "
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium" Width="763"
-                   Margin="5"
+                   Margin="5" HorizontalAlignment="Left"
                  />
 
                 <TextBlock Text="Number of residents: "
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium" Width="763"
-                   Margin="5"
+                   Margin="5" HorizontalAlignment="Left"
                  />
 
                 <TextBlock Text="Pets: "
@@ -246,21 +250,21 @@
                    FontSize="15"
                    FontWeight="Medium" Width="763"
                    Margin="5
-                           "
+                           " HorizontalAlignment="Left"
                  />
 
                 <TextBlock Text="Moving because: "
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="10" Height="59"
+                   Margin="10" Height="59" HorizontalAlignment="Left"
                 />
 
                 <TextBlock Text="Past Pay Stubs: "
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="10, 5, 10, 0" Height="24"
+                   Margin="10, 5, 10, 0" Height="24" HorizontalAlignment="Left"
                 />
                 
                 <Button
@@ -278,7 +282,7 @@
                    Foreground="White"
                    FontSize="15"
                    FontWeight="Medium"
-                   Margin="10, 5, 10, 0" Height="26"
+                   Margin="10, 5, 10, 0" Height="26" HorizontalAlignment="Left"
                 />
 
                 <Button
