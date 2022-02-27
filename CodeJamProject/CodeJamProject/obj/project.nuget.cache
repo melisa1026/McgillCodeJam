@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RkkNImDa21JvUNxZcsCw21CilCJ9FrfPXohXQBxP5Zb//z/Y65ZAGsFNzB10513OGc5UmulLyCAtAhpyY76HUg==",
+  "dgSpecHash": "Pz+99YT1CApk7pLrCZAqshBRoac9aMfS12oabBXifoxOFoTFOvuEsrUB3bnCV7tOsdd8uTKs5Al9jSTr7Hz5Ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zvifu\\McgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj",
+  "projectFilePath": "C:\\Users\\kevin\\Documents\\GitHub\\McgillCodeJam\\CodeJamProject\\CodeJamProject\\CodeJamProject.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\zvifu\\McgillCodeJam\\CodeJamProject\\CodeJamProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -29,10 +29,26 @@ namespace CodeJamProject
 
         private void signInButton_Click(object sender, RoutedEventArgs e)
         {
+            string landlordUser = "TheLegend27", landlordPassword = "password";
+            string tenantUser = "GenshinLover", tenantPassword = "password";
             string username = usernameInput.Text;
             string password = passwordInput.Password;
 
-            //implement a search through database for this username
+            //landlord
+            if (username == landlordUser)            
+                if (password == landlordPassword)                
+                    NavigationService.Navigate(new Uri("LandlordPage.xaml", UriKind.Relative));
+                
+            
+
+            //Tenant
+            if (username == tenantUser)
+                if (password == tenantPassword)
+                    NavigationService.Navigate(new Uri("TenantPage.xaml", UriKind.Relative));
+
+
+
+
         }
 
         private void signUpButton_Click(object sender, RoutedEventArgs e)
