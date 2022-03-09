@@ -1,6 +1,8 @@
 # LANLord
 
-LAN lord is a desktop application that ensures more secure business endeavors between landlords and tenants. Essentially, tenants looking to lease properties can create accounts showcasing their financial status and reliability. 
+LAN lord is a desktop application that ensures more secure business endeavors between landlords and tenants. 
+
+Essentially, tenants looking to lease properties can create accounts showcasing their financial status and reliability. 
 
 Things such as their income, credit scores, past properties, how often they paid their rent on time, so on and so forth. 
 
