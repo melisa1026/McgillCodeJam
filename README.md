@@ -10,5 +10,15 @@ If they find a property they are interested in; they can reach out to a landlord
 
 As a result, things such as scam tenants could be easily avoided. 
 
-We used WPF, a c# markup language to create the UI, and set up a database to store user information. 
+## Languages Used
+
+### WPF
+
+We used WPF, a C# markup language, to create and design the UI
+
+### SQL
+
+We used SQL and created a database to store user information
+
+
 
